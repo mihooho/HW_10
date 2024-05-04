@@ -1,0 +1,16 @@
+  105  git branch
+  106  git checkout -b develop
+  107  git branch
+  108  touch develop_test.txt
+  109  git add develop_test.txt
+  110  git commit -m "HM3"
+  111  git add develop_test.txt
+  112  git commit -m "hm3"
+  113  git status
+  114  clear
+  115  git status
+  116  git add develop_test.txt
+  117  git commit -m "Внесено зміни у файл develop_test.txt"
+  118  git checkout main
+  119  git merge develop
+  120  git log
