@@ -1,0 +1,135 @@
+    1  git -version
+    2  git --version
+    3  cd 
+    4  cd Desktop
+    5  cd Desktop
+    6  cd QA\ 35
+    7  cd ../
+    8  cd /Users/michaelvaribrusov/Desktop/QA\ 35 
+    9  clear
+   10  pwd
+   11  ls -l
+   12  touch test.txt 
+   13  ls -l
+   14  clear
+   15  vim text.txt
+   16  cat taxt.txt
+   17  vim text.txt
+   18  cat taxt.txt
+   19  vim text.txt
+   20  cat text.txt
+   21  clean
+   22  clear
+   23  mkdir Mihoo
+   24  ls -l
+   25  cp test.txt Mih
+   26  cp test.txt Mihoo 
+   27  l1 -l
+   28  ls -l
+   29  cd Mihoo
+   30  rm test.txt
+   31  ls -l
+   32  clear
+   33  ping google.com
+   34  date
+   35   clear
+   36  system_profiler
+   37  clear
+   38  ls -l
+   39  cd ../
+   40  ls -l
+   41  chmod 444 test.txt
+   42  ls -l
+   43  clear
+   44  git clone https://github.com/mihooho/GitQA35.git
+   45  cd GitQA35
+   46  git config --global user.name "Mykhailo Varibrusov"
+   47  git config --global user.email "mihoohov@gmail.com"
+   48   git status
+   49  touch file.txt
+   50  ls -l
+   51  git status
+   52  git add file.txt
+   53  git status
+   54  git commit -m "First commit"
+   55  git push
+   56  git push
+   57  clear
+   58  git branch
+   59  git checkout -b test
+   60  git branch
+   61  touch test.txt
+   62  ls -l
+   63  git status
+   64  git add test.txt
+   65  git status
+   66  git commit -m "Second commit"
+   67  clear
+   68  git checkout main
+   69  git merge test
+   70  git push
+   71  git push
+   72  git push
+   73  cd homework
+   74  cd hm
+   75  cd 
+   76  cd 
+   77  cd Desktop
+   78  cd h
+   79  cd hm
+   80  -c && rm~/.bash_history
+   81  git config --global user.name "mihooho"
+   82  cd Desktop
+   83  cd hm
+   84  git config --global user.name "Miho"
+   85  git config --global user.email "mihoohov@gmail.com"
+   86  git clone https://github.com/mihooho/HW_10.git
+   87  cd HW_10
+   88  touch text_ignore.txt
+   89  echo text_ignore.txt>> .gitignore
+   90  echo text_ignore.txt >> .gitignore
+   91  echo "text_ignore.txt" >> .gitignore
+   92  git status
+   93  git add
+   94  git add
+   95  git add text_ignore.txt
+   96  f
+   97  git add text_ignore.txt
+   98  git commit -m "HM"
+   99  git add .gitignore
+  100  git commit -m "HM"
+  101  touch main_test.txt
+  102  git add main_test.txt
+  103  git commit -m "HM2"
+  104  branch
+  105  git branch
+  106  git checkout -b develop
+  107  git branch
+  108  touch develop_test.txt
+  109  git add develop_test.txt
+  110  git commit -m "HM3"
+  111  git add develop_test.txt
+  112  git commit -m "hm3"
+  113  git status
+  114  clear
+  115  git status
+  116  git add develop_test.txt
+  117  git commit -m "Внесено зміни у файл develop_test.txt"
+  118  git checkout main
+  119  git merge develop
+  120  git log
+  121  history > command_list.csv
+  122  git add HW_10
+  123  git commit -m "Фіксація змін"
+  124  git add command_list.csv
+  125  git commit -m "Фіксація змін"
+  126  git push
+  127  git rm. command_list.csv
+  128  git rm command_list.csv
+  129  git add HW_10 
+  130  git add HW_10
+  131  git commit -m "Фіксація змін"
+  132  git push
+  133  echo SomeText > develop_test.txt
+  134  git add develop_test.txt
+  135  git commit -m "develop_test.txt is changed"
